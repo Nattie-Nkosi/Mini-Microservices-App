@@ -7,3 +7,11 @@ A Mini Microservices app done in React and node Js on the backend. Used Docker t
 - Docker
 - Kubernetes
 - Skaffold
+
+## Lessons from the App
+- The big challenge in microservices is data
+- Different ways to share data between services. Async communication.
+- Async communication focuses on communicating changes using events sent to an event bus.
+- Async communication encourages each service to be 100% self-sufficient. Relatively easy to handle temporary downtime or new service creation.
+- Docker makes it easier to package up services.
+- Kubernetes is a pain to setup, but makes it easy to deploy + scale services
